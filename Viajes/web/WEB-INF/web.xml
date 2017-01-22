@@ -12,6 +12,10 @@
         <servlet-name>ProcesarHotel</servlet-name>
         <servlet-class>controlador.ProcesarHotel</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ProcesarCliente</servlet-name>
+        <servlet-class>controlador.ProcesarCliente</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>ProcesarAerolinea</servlet-name>
         <url-pattern>/ProcesarAerolinea</url-pattern>
@@ -23,6 +27,10 @@
     <servlet-mapping>
         <servlet-name>ProcesarHotel</servlet-name>
         <url-pattern>/ProcesarHotel</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ProcesarCliente</servlet-name>
+        <url-pattern>/ProcesarCliente</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

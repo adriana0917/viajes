@@ -38,6 +38,9 @@
                 <tr>
                     <td><a href="hotel.jsp">Mantenimiento Hotel</a></td>
                 </tr>
+                <tr>
+                    <td><a href="cliente.jsp">Mantenimiento Cliente</a></td>
+                </tr>
             </table>
         </center>
     </body>
